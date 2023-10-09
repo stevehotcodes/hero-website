@@ -20,6 +20,7 @@ body{
     justify-content:center;
     align-items:center;
     background-color: rgb(236, 233, 233);
+    flex-wrap:wrap;
     
 }
 
@@ -283,7 +284,7 @@ header{
 }
 
 .pricing{
-    /* border:2px solid red; */
+
     margin:1rem;
     width:100%;
     display:flex;
@@ -294,12 +295,13 @@ header{
 
 }
 .pricing-cards{
-    /* border:2px solid blue; */
+  
     margin:3.5rem;
     display: flex;
     justify-content: center;
     width:80%;
-    height:80vh;
+    height:100vh;
+    
 }
 
 
@@ -309,9 +311,10 @@ header{
     flex-direction:column;
     justify-content:center;
     gap:1rem;
+    width:33%;
     border-radius: 4%;
-    padding:.5rem;
-    margin:.5rem
+    margin:.5rem;
+    height:100%;
     
 }
 .branches-world-wrapper{
@@ -374,12 +377,10 @@ li{
 }
 #free,#premium,#standard{
     height:90%;
-    /* margin-top:6% */
 }
 .branches-world-wrapper{
     width:100%;
     height:60vh;
-    /* border:2px solid green; */
     display: flex;
     justify-content: flex-start;
     background-color: rgb(46, 46, 77);
@@ -392,9 +393,8 @@ li{
     flex:0.45
 }
 .branches-wrapper{
-    /* border:2px solid white; */
     height:20vh;
-    /* margin:2rem; */
+   
 }
 .branches{
     color:white;
@@ -417,14 +417,12 @@ li{
 }
 .book-form-wrapper>img{
     flex:0.2;
-    /* border:2px solid white; */
     height: 100%;
     
 }
 
 .book-form-wrapper>form{
     flex:0.7;
-    /* border:2px solid red; */
 
 }
 form{
@@ -454,7 +452,6 @@ input:placeholder{
 }
 .appointment-btn{
     width:80%;
-    /* height:1rem; */
     color:white;
     background-color: var(--Primary-blue-color);
     padding: 1rem;
@@ -477,7 +474,6 @@ input:placeholder{
 }
 .consulting-contact-btn-wrapper{
     width:100%;
-    /* border:2px solid yellow; */
     margin-top:15rem;
     margin-bottom:3rem;
     display:flex;
@@ -504,4 +500,136 @@ input:placeholder{
     list-style: none;
     
     
+}
+
+@media screen and (max-width:720px){
+    body{
+        width:100%;
+        font-size:0.9rem;
+    }
+    header{
+        display:flex;
+        width:100%;
+        height:300%;
+        flex-grow: 1;
+        justify-content:center;
+        align-items: center;
+    }
+    .top-bar,.links{
+        flex-direction:column;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+
+    .pricing-cards{
+        width:100%;
+    }
+    .header-cards{
+        position: sticky;
+        width:100%;
+        flex-wrap:wrap;
+        flex-grow:1;
+    }
+    .empty-div{
+        display:none;
+    }
+    .peace-set-satisafaction-2{
+        flex-wrap:wrap;
+        margin-top:4rem;
+    }
+    .industry-cards{  
+        flex-direction: column;
+        margin-top:10rem;
+        margin-bottom: 5rem;
+        gap:1rem
+    }
+    .industry-card-1{
+        width:100%;
+        flex-direction: column;
+    }
+    .vector-wrapper{
+        margin-top:20rem;
+        width:100%;
+        flex-wrap: wrap;
+        
+    }
+    .subscribe{
+        flex-direction:column;
+        width:100vw;
+        justify-content: center;
+        align-items: center;
+        height:20rem;
+       
+    }
+    .subscribe-headline{
+        font-size:14px;
+    }
+    .subscribe-form{
+        height:5rem;
+        margin-bottom: 1.2rem;
+    }
+    .subscribe-form>input,.subscribe-form>.subscribe-btn{
+        width:120%;
+        padding:.9rem;
+        flex:0.5;
+    }
+   
+    .subscribe-form{
+       flex-direction: column;
+       width:50%;
+       gap:10px;
+    }
+    .pricing{
+        height:250vh;
+        width:100%;
+        
+       
+    }
+    .pricing-cards{
+        flex-direction: column;
+        height:500vh;
+     
+        
+    }
+    .pricing-card1{
+        height:100vh;
+        width: 90%;
+    
+    }
+    .branches-world-wrapper{
+        height:100vh;
+        width:100%;
+    }
+    .branches-wrapper{
+        margin-top: 5rem;
+        width:100%;
+    }
+    .book-form-wrapper{
+        width:100%;
+        flex-direction: column;
+        height:200vh;
+        margin-bottom: 1.5rem;
+        
+        
+    
+    }
+    .consulting-contact-btn-wrapper{
+        margin-top: 15rem;
+        flex-wrap: wrap;
+    }
+    .footer{
+    
+        flex-direction: column;
+
+        height:150vh;
+        align-items:center;
+    }
+    @media screen and (max-width:588px){
+        .consulting-contact-btn-wrapper{
+            margin-top: 15rem;
+           
+        }
+    }
 }
