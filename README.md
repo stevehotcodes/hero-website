@@ -10,4 +10,8 @@ The website is also visible or responsive for mobile screen with a maximum width
 
 ![Screenshot (26)](https://github.com/stevehotcodes/hero-website/assets/111267947/7433c8b9-e318-4d79-9939-d2f0d3dbfcbe)
 ## MOBILE VIEW
-![Uploading Screenshot (29).png…]()
+
+![Screenshot (29)](https://github.com/stevehotcodes/hero-website/assets/111267947/698a2823-0efe-4f0f-be3f-02256f34a661)
+
+![Screenshot (30)](https://github.com/stevehotcodes/hero-website/assets/111267947/2ef2d685-3bcd-4126-9478-6de67565666c)
+
