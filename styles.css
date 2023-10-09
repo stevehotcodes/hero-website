@@ -194,7 +194,7 @@ header{
     display:flex;
     justify-content: space-evenly;
     margin-top:1.5rem;
-    padding:.5rem;
+    padding:1rem;
  
     
 
@@ -220,6 +220,9 @@ header{
     text-align: center;
     border: .5px solid gray;
     background-color: white;
+}
+.industry-card-1>img{
+    padding-top:0.5rem;
 }
 .industry-card-1>img{
     width:150px;
