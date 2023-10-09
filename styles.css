@@ -138,6 +138,9 @@ header{
     margin:.5rem;
     gap:1rem;
 }
+.peace-set-satisafaction-2{
+    height:80vh;
+}
 .peace,.set,.satisfaction{
     display:flex;
     flex-direction: column;
@@ -196,9 +199,8 @@ header{
     margin-top:1.5rem;
     padding:1rem;
  
-    
-
 }
+
 .industry-description{
     display:flex;
     flex-direction: column;
