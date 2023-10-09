@@ -623,7 +623,7 @@ input:placeholder{
     
         flex-direction: column;
 
-        height:150vh;
+        height:160vh;
         align-items:center;
     }
     @media screen and (max-width:588px){
