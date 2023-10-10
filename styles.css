@@ -20,7 +20,7 @@ body{
     justify-content:center;
     align-items:center;
     background-color: rgb(236, 233, 233);
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
     
 }
 
@@ -191,12 +191,13 @@ header{
 
 }
 .industry-cards{
-    /* border:1px solid red; */
+    
     width:100%;
-    height:40vh;
+    height:100vh;
     display:flex;
     justify-content: space-evenly;
-    margin-top:1.5rem;
+    /* margin-top:1.5rem; */
+    margin-bottom: 1.5rem;
     padding:1rem;
  
 }
@@ -232,21 +233,22 @@ header{
 
 }
 .vector-wrapper{
-    width:100%;
-    height:15vh;
+    width:95%;
+    height:22vh;
     display:flex;
-    justify-content:space-around;
+    padding: 2rem;
+    justify-content:space-evenly;
     align-content: center;
-    /* border:red 2px solid; */
+    margin:6rem auto;
 }
 .vector-wrapper>img{
-    height:70px;
-    width:70px;
+    height:50px;
+    width:50px;
 }
 
 .subscribe{
     /* border:2px solid red; */
-    width:100%;
+    width:95%;
     height:15vh;
     display:flex;
     justify-content:center;
@@ -543,6 +545,7 @@ input:placeholder{
     .peace-set-satisafaction-2{
         flex-wrap:wrap;
         margin:4rem auto;
+        height:60vh
     }
     .industry-cards{  
         flex-direction: column;
@@ -555,18 +558,19 @@ input:placeholder{
         flex-direction: column;
     }
     .vector-wrapper{
-        margin-top:26rem;
-        width:100%;
-        /* flex-wrap: wrap; */
-        height:50vh;
-        flex-direction: column;
+        margin-top:40rem;
+        width:90%;
+        flex-wrap: wrap;
+    
+        /* flex-direction: column; */
         align-items: center;
-        border: 2px solid red;
+        
+        /* border: 2px solid red; */
         
     }
     .vector-wrapper>img{
-        width:50px;
-        height:50px;
+        width:40px;
+        height:40px;
     }
     .subscribe{
         flex-direction:column;
@@ -646,21 +650,42 @@ input:placeholder{
         }
     }
 
-    @media screen and (max-width:305px){
+    @media screen and (max-width:330px){
+        body{
+            font-size:0.8em
+        }
         .branches-world-wrapper{
             flex-direction: column;
-            flex-shrink: 1;
+            font-size:0.8rem;
+            margin-top:10rem;
+            /* margin-bottom: -80rem; */
+            
+        
+        }
+        .branches-wrapper{
+            flex-direction: column;
+
+        }
+        .consulting-contact-btn-wrapper{
+            margin-top: 2rem;
         }
     }
 
-    @media screen and (max-width:210px){
+    @media screen and (max-width:310px){
         .industry-wrapper{
             margin-top: 5rem;
-            border:2px solid red;
+            /* border:2px solid red; */
         }
         .vector-wrapper{
-             margin:30rem;
-             height: 100vh;
+             margin-top:52rem;
+             margin-bottom: -3;
+             width:100%;
+             /* height: 100vh; */
+             flex-direction: column;
+        }
+        .vector-wrapper>img{
+            width:15px;
+            height:15px;
         }
     }
 }
