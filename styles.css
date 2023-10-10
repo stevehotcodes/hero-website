@@ -29,10 +29,11 @@ header{
     background-image:url(./images/hero-cover.png);
     background-size: cover;
     background-repeat: no repeat;
-    width:100vw;
+    width:97vw;
     display:flex;
     flex-direction: column;
-    height:60vh;
+    height:lvh(60%,100%);
+    padding:1%
 
 }
 
@@ -128,7 +129,7 @@ header{
     display:flex;
     justify-content:center;
     height:25vh;
-    margin:.5rem;
+    margin:.7rem;
     gap:1rem;
 }
 .peace-set-satisafaction-2{
@@ -490,6 +491,16 @@ input:placeholder{
     list-style: none;
     
     
+}
+@media screen and (max-width:1039){
+    body{
+        font-size:.7rem
+    }
+ header{
+        height:300svh;
+        border:2px solid red
+    }
+
 }
 
 @media screen and (max-width:768px){
