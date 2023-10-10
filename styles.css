@@ -660,6 +660,7 @@ input:placeholder{
         }
         .vector-wrapper{
              margin:30rem;
+             height: 100vh;
         }
     }
 }
