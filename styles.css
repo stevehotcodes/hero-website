@@ -20,7 +20,6 @@ body{
     justify-content:center;
     align-items:center;
     background-color: rgb(236, 233, 233);
-    /* flex-wrap:wrap; */
     
 }
 
@@ -31,7 +30,6 @@ header{
     background-size: cover;
     background-repeat: no repeat;
     width:100vw;
-    /* border:2px solid red; */
     display:flex;
     flex-direction: column;
     height:60vh;
@@ -42,7 +40,6 @@ header{
     display:flex;
     flex:.95;
     justify-content: space-between;
-    /* border:2px solid blue; */
     align-items:center;
     padding:0.4rem;
     margin:1rem;
@@ -57,7 +54,7 @@ header{
 }
 
 .links{
-    /* justify-content: space-around; */
+    
     gap:.6rem;
 
 }
@@ -68,7 +65,6 @@ header{
 
 .login-sign-up-wrapper{
     gap:1rem;
-    /* border:2px solid red; */
     color:white;
     align-items: center;
 }
@@ -97,7 +93,6 @@ header{
     display: flex;
     flex-direction:column;
     color:white;
-    /* border:2px solid red; */
     width:70%;
     margin: 5rem auto;
     text-align:center
@@ -115,7 +110,6 @@ header{
     justify-content:center;
     margin:20px;
     gap:1rem;
-    /* border: 2px solid red; */
     align-items: center;
 }
 .quote-learn-more-wrapper>.quote-button,.quote-learn-more-wrapper>.learn-more-button{
@@ -133,7 +127,6 @@ header{
     width:100%;
     display:flex;
     justify-content:center;
-    /* border:2px solid red; */
     height:25vh;
     margin:.5rem;
     gap:1rem;
@@ -144,7 +137,6 @@ header{
 .peace,.set,.satisfaction{
     display:flex;
     flex-direction: column;
-    /* border:.1px solid white; */
     color:black;
     padding:1rem;
     text-align:left;
@@ -172,19 +164,14 @@ header{
     width:100%;
     display:flex;
     justify-content:center;
-    /* border:2px solid red; */
     height:30vh;
-    /* margin:.5rem; */
     gap:1.2rem;
     background-color:white;
     align-items: center;
     
 }
 .industry-wrapper{
-    /* display: flex; */
-    /* flex-direction:column; */
     width:100%;
-    /* border:1px solid green; */
     justify-content: center;
     height:57vh;
     padding:1rem;
@@ -196,7 +183,6 @@ header{
     height:100vh;
     display:flex;
     justify-content: space-evenly;
-    /* margin-top:1.5rem; */
     margin-bottom: 1.5rem;
     padding:1rem;
  
@@ -247,7 +233,6 @@ header{
 }
 
 .subscribe{
-    /* border:2px solid red; */
     width:95%;
     height:15vh;
     display:flex;
@@ -257,7 +242,6 @@ header{
 }
 .subscribe-headline{
     flex:0.5;
-    /* border:2px solid blue; */
     display:flex;
     align-items:center;
     color:white;
@@ -266,7 +250,6 @@ header{
 .subscribe-form{
     display:flex;
     align-items:center;
-    /* border:2px solid green; */
     flex:0.5;
 }
 
@@ -509,7 +492,7 @@ input:placeholder{
     
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:768px){
     body{
         width:100%;
         font-size:0.9rem;
@@ -525,7 +508,6 @@ input:placeholder{
     .top-bar,.links{
         flex-direction:column;
         flex-wrap: wrap;
-        
         
     }
     
@@ -561,12 +543,7 @@ input:placeholder{
         margin-top:40rem;
         width:90%;
         flex-wrap: wrap;
-    
-        /* flex-direction: column; */
         align-items: center;
-        
-        /* border: 2px solid red; */
-        
     }
     .vector-wrapper>img{
         width:40px;
@@ -686,6 +663,12 @@ input:placeholder{
         .vector-wrapper>img{
             width:15px;
             height:15px;
+        }
+
+    }
+    @media screen and (max-width:300px){
+        .branches-world-wrapper{
+            margin-top:20rem;
         }
     }
 }
