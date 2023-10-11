@@ -641,7 +641,12 @@ input:placeholder{
             height:300vh;
         }
         .footer{
-            height:200vh
+            height:200vh;
+            background-color: rgb(18, 18, 22);
+            color:whitesmoke
+        }
+        .footer1>ul>li:hover{
+            text-decoration: underline;
         }
         
     }
