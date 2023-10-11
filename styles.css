@@ -401,7 +401,7 @@ li{
 .book-form-wrapper{
     display: flex;
     justify-content: center;
-    height:60vh;
+    height:70vh;
     width:60%;
     margin:-10rem;
    
@@ -422,7 +422,7 @@ form{
     display:flex;
     align-items:center ;
     flex-direction: column;
-    padding:1rem;
+    padding:.5rem;
     height: 100%;
     border:7px solid white;
     
@@ -445,8 +445,8 @@ input:placeholder{
     width:80%;
     color:white;
     background-color: var(--Primary-blue-color);
-    padding: 1rem;
-    margin:1rem;
+    padding: .5rem;
+    margin:.5rem;
     text-align: center;
     cursor:pointer
 }
@@ -492,14 +492,15 @@ input:placeholder{
     
     
 }
-@media screen and (max-width:1039){
+@media screen and (max-width:1039px){
     body{
         font-size:.7rem
     }
- header{
+    header{
         height:300svh;
-        border:2px solid red
+        /* border:2px solid red */
     }
+   
 
 }
 
@@ -521,7 +522,7 @@ input:placeholder{
         flex-wrap: wrap;
         
     }
-    
+    .pricing
 
     .pricing-cards{
         width:100%;
@@ -587,7 +588,7 @@ input:placeholder{
        gap:10px;
     }
     .pricing{
-        height:250vh;
+        height:300vh;
         width:100%;
         
        
@@ -604,7 +605,7 @@ input:placeholder{
     
     }
     .branches-world-wrapper{
-        height:100vh;
+        height:150vh;
         width:100%;
     }
     .branches-wrapper{
@@ -628,7 +629,7 @@ input:placeholder{
     
         flex-direction: column;
 
-        height:160vh;
+        height:200vh;
         align-items:center;
     }
     @media screen and (max-width:588px){
@@ -636,6 +637,13 @@ input:placeholder{
             margin-top: 15rem;
            
         }
+        .pricing{
+            height:300vh;
+        }
+        .footer{
+            height:200vh
+        }
+        
     }
 
     @media screen and (max-width:330px){
